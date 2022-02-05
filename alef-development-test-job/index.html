@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- Author by Danil Emelyanenko <cp.291912@gmail.com> -->
+    <!-- https://github.com/a8an7a -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <title>Alef Development. Тестовое задание на вкансию HTML-верстальщика</title>
+<script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__cover">
+                <div class="header__logo">LOGO</div>
+                <div class="header__controls">
+                    <a href="#" class="header__link"><img src="./assets/icons/person.svg" alt="controls-icon"
+                            class="link-image"></a>
+                    <a href="#" class="header__link"><img src="./assets/icons/favorite.svg" alt="controls-icon"
+                            class="link-image"></a>
+                    <a href="#" class="header__link"><img src="./assets/icons/bag.svg" alt="controls-icon"
+                            class="link-image"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="current-product">
+            <div class="current-product__cover">
+
+                <div class="current-product__gallery">
+                    <div class="current-product__core-image">
+                        <img src="./assets/images/01.jpg" alt="core-image" class="current-product__current-image">
+                    </div>
+                    <div class="current-product__other-image-cover">
+                        <img src="./assets/images/01.jpg" alt="other-image" class="current-product__other-image current-product__other-image_active">
+                        <img src="./assets/images/02.jpg" alt="other-image" class="current-product__other-image">
+                        <img src="./assets/images/03.jpg" alt="other-image" class="current-product__other-image">
+                        <img src="./assets/images/04.jpg" alt="other-image" class="current-product__other-image">
+                        <img src="./assets/images/05.jpg" alt="other-image" class="current-product__other-image">
+                    </div>
+                </div>
+
+                <div class="current-product__aside">
+
+                    <div class="current-product__info">
+                        <p class="current-product__title">Пижама для девочек</p>
+                        <p class="current-product__vendor-code">Арт. 02765/46</p>
+                        <div class="current-product__comments comments">
+                            <span class="comments__title">Отзывы</span>
+                            <div class="comments__raiting">
+                                <img src="./assets/icons/star_fill.svg" alt="star" class="comments__star">
+                                <img src="./assets/icons/star_fill.svg" alt="star" class="comments__star">
+                                <img src="./assets/icons/star_fill.svg" alt="star" class="comments__star">
+                                <img src="./assets/icons/star_fill.svg" alt="star" class="comments__star">
+                                <img src="./assets/icons/star.svg" alt="star" class="comments__star">
+                            </div>
+                            <a href="#" class="comments__link brand-link brand-link_in-underline">
+                                <span class="comments__link-title">14 отзывов</span>
+                                <div class="swipe swipe_right"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="current-product__price">
+                        <div class="current-product__current-price price">
+                            <span class="price__sale">800 &#8381;</span>
+                            <span class="price__without-sale">1 500 &#8381;</span>
+                            <div class="swipe swipe_right"></div>
+                        </div>
+                        <div class="current-product__sales">
+                            <a href="#" class="current-product__sale">скидка -36%</a>
+                            <a href="#" class="current-product__sale">акция -20%</a>
+                        </div>
+                    </div>
+
+                    <div class="current-product__size">
+                        <div class="current-product__size-list">
+                            <button class="current-product__size-select-button">
+                                <span class="button-size-titile">Выбрать размер</span>
+                                <div class="swipe swipe_bottom"></div>
+                            </button>
+                        </div>
+                        <a href="#" class="brand-link brand-link_hover brand-link_out-underline">Определить размер</a>
+                    </div>
+
+                    <div class="current-product__add">
+                        <div class="current-product__add-buttons">
+                            <div class="count-buttons">
+                                <button class="count-buttons__add-count count-buttons__item add-button">+</button>
+                                <div class="count-buttons__show-count">1</div>
+                                <button class="count-buttons__remove-count count-buttons__item remove-button">–</button>
+                            </div>
+                            <button class="add__item add__product">Добавить в корзину</button>
+                            <button class="add__item add__favorite">
+                                <img src="./assets/icons/favorite_white.svg" alt="favorite-white"
+                                    class="add-favorite__image">
+                            </button>
+                        </div>
+                        <a href="#" class="brand-link brand-link_hover brand-link_out-underline">Купить в 1 клик</a>
+                    </div>
+
+                    <div class="current-product__other other">
+                        <div class="other__item">
+                            <img src="./assets/icons/closes.svg" alt="other-image" class="other__image">
+                            <a href="#" class="brand-link brand-link_hover brand-link_out-underline">Описание товара</a>
+                        </div>
+                        <div class="other__item">
+                            <img src="./assets/icons/clock.svg" alt="other-image" class="other__image">
+                            <a href="#" class="brand-link brand-link_hover brand-link_out-underline">Доставка и
+                                возврат</a>
+                        </div>
+                        <div class="other__item">
+                            <img src="./assets/icons/pay.svg" alt="other-image" class="other__image">
+                            <a href="#" class="brand-link brand-link_hover brand-link_out-underline">Способы оплаты</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="other-products mb-130">
+            <div class="other-products__link">
+                <a href="#" class="brand-link brand-link_hover brand-link_out-underline">Посмотреть все стили</a>
+            </div>
+
+            <div class="other-products__gallery">
+                <div class="other-products__col other-products__col_covered">
+                    <img src="./assets/images/06.png" alt="gallery-image" class="other-products__image">
+                    <div class="other-products__image-placeholder">
+                        <div class="other-products__placeholder-item other-products__placeholder-item_flex-end">
+                            <a href="#" class="other-products__placeholder-link">
+                                <img src="./assets/icons/full_screen.svg" alt="full-screen"
+                                    class="other-products__placeholder-image">
+                            </a>
+                        </div>
+                        <div class="other-products__placeholder-item other-products__placeholder-item_center">
+                            <a href="#" class="other-products__placeholder-link brand-link_in-underline">
+                                <img src="./assets/icons/bag_full.svg" alt="full-bag"
+                                    class="other-products__placeholder-image m-0-auto">
+                                <span class="other-products__placeholder-title">Узнай, что на мне</span>
+                            </a>
+                        </div>
+                        <div class="other-products__placeholder-item other-products__placeholder-item_center">
+                            <img src="./assets/icons/favorite_fill.svg" alt="full-bag"
+                                class="other-products__placeholder-image mr-6">
+                            <span class="other-products__placeholder-title">200</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-products__col">
+                    <div class="other-products__row">
+                        <div class="other-products__col-md other-products__col_covered">
+                            <img src="./assets/images/07.png" alt="gallery-image" class="other-products__image">
+                            <div class="other-products__image-placeholder">
+                                <div class="other-products__placeholder-item other-products__placeholder-item_flex-end">
+                                    <a href="#" class="other-products__placeholder-link">
+                                        <img src="./assets/icons/full_screen.svg" alt="full-screen"
+                                            class="other-products__placeholder-image">
+                                    </a>
+                                </div>
+                                <div class="other-products__placeholder-item other-products__placeholder-item_center">
+                                    <a href="#" class="other-products__placeholder-link brand-link_in-underline">
+                                        <img src="./assets/icons/bag_full.svg" alt="full-bag"
+                                            class="other-products__placeholder-image m-0-auto">
+                                        <span class="other-products__placeholder-title">Узнай, что на мне</span>
+                                    </a>
+                                </div>
+                                <div class="other-products__placeholder-item other-products__placeholder-item_center">
+                                    <img src="./assets/icons/favorite_fill.svg" alt="full-bag"
+                                        class="other-products__placeholder-image mr-6">
+                                    <span class="other-products__placeholder-title">200</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="other-products__col-md other-products__col_covered">
+                            <img src="./assets/images/08.png" alt="gallery-image" class="other-products__image">
+                            <div class="other-products__image-placeholder">
+                                <div class="other-products__placeholder-item other-products__placeholder-item_flex-end">
+                                    <a href="#" class="other-products__placeholder-link">
+                                        <img src="./assets/icons/full_screen.svg" alt="full-screen"
+                                            class="other-products__placeholder-image">
+                                    </a>
+                                </div>
+                                <div class="other-products__placeholder-item other-products__placeholder-item_center">
+                                    <a href="#" class="other-products__placeholder-link brand-link_in-underline">
+                                        <img src="./assets/icons/bag_full.svg" alt="full-bag"
+                                            class="other-products__placeholder-image m-0-auto">
+                                        <span class="other-products__placeholder-title">Узнай, что на мне</span>
+                                    </a>
+                                </div>
+                                <div class="other-products__placeholder-item other-products__placeholder-item_center">
+                                    <img src="./assets/icons/favorite_fill.svg" alt="full-bag"
+                                        class="other-products__placeholder-image mr-6">
+                                    <span class="other-products__placeholder-title">200</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="other-products__row">
+                        <div class="other-products__col-md other-products__col_covered">
+                            <img src="./assets/images/09.png" alt="gallery-image" class="other-products__image">
+                            <div class="other-products__image-placeholder">
+                                <div class="other-products__placeholder-item other-products__placeholder-item_flex-end">
+                                    <a href="#" class="other-products__placeholder-link">
+                                        <img src="./assets/icons/full_screen.svg" alt="full-screen"
+                                            class="other-products__placeholder-image">
+                                    </a>
+                                </div>
+                                <div class="other-products__placeholder-item other-products__placeholder-item_center">
+                                    <a href="#" class="other-products__placeholder-link brand-link_in-underline">
+                                        <img src="./assets/icons/bag_full.svg" alt="full-bag"
+                                            class="other-products__placeholder-image m-0-auto">
+                                        <span class="other-products__placeholder-title">Узнай, что на мне</span>
+                                    </a>
+                                </div>
+                                <div class="other-products__placeholder-item other-products__placeholder-item_center">
+                                    <img src="./assets/icons/favorite_fill.svg" alt="full-bag"
+                                        class="other-products__placeholder-image mr-6">
+                                    <span class="other-products__placeholder-title">200</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="other-products__col-md other-products__col_covered">
+                            <img src="./assets/images/10.png" alt="gallery-image" class="other-products__image">
+                            <div class="other-products__image-placeholder">
+                                <div class="other-products__placeholder-item other-products__placeholder-item_flex-end">
+                                    <a href="#" class="other-products__placeholder-link">
+                                        <img src="./assets/icons/full_screen.svg" alt="full-screen"
+                                            class="other-products__placeholder-image">
+                                    </a>
+                                </div>
+                                <div class="other-products__placeholder-item other-products__placeholder-item_center">
+                                    <a href="#" class="other-products__placeholder-link brand-link_in-underline">
+                                        <img src="./assets/icons/bag_full.svg" alt="full-bag"
+                                            class="other-products__placeholder-image m-0-auto">
+                                        <span class="other-products__placeholder-title">Узнай, что на мне</span>
+                                    </a>
+                                </div>
+                                <div class="other-products__placeholder-item other-products__placeholder-item_center">
+                                    <img src="./assets/icons/favorite_fill.svg" alt="full-bag"
+                                        class="other-products__placeholder-image mr-6">
+                                    <span class="other-products__placeholder-title">200</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer__col mr-16">
+                <div class="footer__title mb-16">Покупателям</div>
+                <a href="#" class="brand-link brand-link_hover mb-8">Каталог</a>
+                <a href="#" class="brand-link brand-link_hover mb-8">Акции</a>
+                <a href="#" class="brand-link brand-link_hover">Бренды</a>
+            </div>
+            <div class="footer__col mr-16">
+                <div class="footer__title mb-16">О нас</div>
+                <a href="#" class="brand-link brand-link_hover mb-8">О компании</a>
+                <a href="#" class="brand-link brand-link_hover mb-8">Новости</a>
+                <a href="#" class="brand-link brand-link_hover">Команда</a>
+            </div>
+            <div class="footer__col footer__col_last">
+                <div class="footer__title mb-33">Узнайте первыми о новинках и акциях</div>
+                <form action="#" class="footer__form">
+                    <div class="footer__form-cover mb-35">
+                        <input type="text" placeholder="Адрес электронной почты" class="footer__input">
+                        <button class="footer__button-reset">
+                            <img src="./assets/icons/close_2.svg" alt="close" class="footer__image">
+                        </button>
+                    </div>
+                    <button type="submit" class="footer__button-submit">Подписаться</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
